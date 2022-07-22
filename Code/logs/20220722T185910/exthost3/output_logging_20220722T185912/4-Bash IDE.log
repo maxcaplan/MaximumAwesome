@@ -1,8 +1,0 @@
-[Info  - 6:59:12 PM] BashLanguageServer initializing...
-[Info  - 6:59:12 PM] BashLanguageServer initialized
-onDocumentSymbol
-onCompletion 13:0 word=null
-onCompletionResolve name=! type=2
-onDefinition 10:18 word="--no-header"
-onDefinition 8:13 word="'[\u@\h \W]\$ '"
-onDocumentSymbol
