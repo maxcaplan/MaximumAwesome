@@ -1,0 +1,16 @@
+chromium/
+dconf/
+discord/
+.git/
+htop/
+inkscape/
+mimeapps.list
+nemo/
+nomacs/
+pavucontrol.ini
+procps/
+pulse/
+transmission/
+user-dirs.dirs
+user-dirs.locale
+yay/
