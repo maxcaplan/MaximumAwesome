@@ -1,0 +1,114 @@
+# Get editor completions based on the config schema
+"$schema" = 'https://starship.rs/config-schema.json'
+
+format = "$all"
+
+# makes prompt a single line
+[line_break]
+disabled = true
+
+[directory]
+read_only = " "
+style = "bold blue"
+
+[character]
+success_symbol = "[❯](purple)"
+error_symbol = "[❯](red)"
+vicmd_symbol = "[❮](green)"
+
+[battery]
+full_symbol = "🔋 "
+charging_symbol = "⚡️ "
+discharging_symbol = "💀 "
+
+[[battery.display]] # "bold red" style when capacity is between 0% and 20%
+threshold = 20 
+style = "bold red"
+
+[status]
+format = "[\\[]($style)[$symbol$status]($style)[\\]]($style) "
+disabled = false
+
+[time]
+format = "[$time ](cyan)"
+use_12hr = true
+time_format = "%d/%m"
+disabled = false
+
+[username]
+style_user = "green bold"
+style_root = "blue bold"
+format = "[$user]($style) "
+disabled = false
+show_always = true
+
+# [sudo]
+# symbol = "🔑 "
+# disabled = false
+
+# Disable the package module, hiding it from the prompt completely
+[package]
+disabled = true
+
+[aws]
+symbol = "  "
+
+[buf]
+symbol = " "
+
+[c]
+symbol = " "
+
+[conda]
+symbol = " "
+
+[dart]
+symbol = " "
+
+[docker_context]
+symbol = " "
+
+[elixir]
+symbol = " "
+
+[elm]
+symbol = " "
+
+[git_branch]
+symbol = " "
+
+[golang]
+symbol = " "
+
+[haskell]
+symbol = " "
+
+[hg_branch]
+symbol = " "
+
+[java]
+symbol = " "
+
+[julia]
+symbol = " "
+
+[memory_usage]
+symbol = " "
+
+[nim]
+symbol = " "
+
+[nix_shell]
+symbol = " "
+
+[nodejs]
+symbol = " "
+
+[python]
+symbol = " "
+
+[spack]
+symbol = "🅢 "
+
+[rust]
+symbol = " "

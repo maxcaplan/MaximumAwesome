@@ -1,0 +1,32 @@
+[2022-07-22 11:00:36.786] [exthost] [info] Extension host with pid 12504 started
+[2022-07-22 11:00:36.823] [exthost] [info] ExtensionService#_doActivateExtension vscode.microsoft-authentication, startup: false, activationEvent: 'onAuthenticationRequest:microsoft'
+[2022-07-22 11:00:36.833] [exthost] [info] ExtensionService#_doActivateExtension vscode.debug-auto-launch, startup: true, activationEvent: '*'
+[2022-07-22 11:00:36.833] [exthost] [info] ExtensionService#_doActivateExtension vscode.git-base, startup: true, activationEvent: '*', root cause: vscode.git
+[2022-07-22 11:00:36.834] [exthost] [info] ExtensionService#_doActivateExtension vscode.ipynb, startup: true, activationEvent: '*'
+[2022-07-22 11:00:36.851] [exthost] [info] ExtensionService#_doActivateExtension vscode.git, startup: true, activationEvent: '*'
+[2022-07-22 11:00:36.866] [exthost] [info] ExtensionService#_doActivateExtension vscode.github, startup: true, activationEvent: '*'
+[2022-07-22 11:00:36.900] [exthost] [info] Eager extensions activated
+[2022-07-22 11:00:36.908] [exthost] [info] ExtensionService#_doActivateExtension vscode.emmet, startup: false, activationEvent: 'onStartupFinished'
+[2022-07-22 11:00:36.911] [exthost] [info] ExtensionService#_doActivateExtension vscode.merge-conflict, startup: false, activationEvent: 'onStartupFinished'
+[2022-07-22 11:00:36.912] [exthost] [info] ExtensionService#_doActivateExtension equinusocio.vsc-material-theme-icons, startup: false, activationEvent: 'onStartupFinished'
+[2022-07-22 11:00:36.925] [exthost] [info] ExtensionService#_doActivateExtension zhuangtongfa.material-theme, startup: false, activationEvent: 'onStartupFinished'
+[2022-07-22 11:00:36.931] [exthost] [info] ExtensionService#_doActivateExtension vscode.github-authentication, startup: false, activationEvent: 'onAuthenticationRequest:github'
+[2022-07-22 11:00:47.703] [exthost] [info] Extension host terminating: received terminate message from renderer
+[2022-07-22 11:00:47.711] [exthost] [info] Extension host with pid 12504 exiting with code 0
+[2022-07-22 11:00:48.901] [exthost] [info] Extension host with pid 12538 started
+[2022-07-22 11:00:48.901] [exthost] [info] Skipping acquiring lock for /home/max/.config/Code/User/workspaceStorage/09e7af8358db5a84684f34e75b5c4ffc.
+[2022-07-22 11:00:48.940] [exthost] [info] ExtensionService#_doActivateExtension sumneko.lua, startup: false, activationEvent: 'onLanguage:lua'
+[2022-07-22 11:00:49.026] [exthost] [info] ExtensionService#_doActivateExtension vscode.microsoft-authentication, startup: false, activationEvent: 'onAuthenticationRequest:microsoft'
+[2022-07-22 11:00:49.036] [exthost] [info] ExtensionService#_doActivateExtension vscode.debug-auto-launch, startup: true, activationEvent: '*'
+[2022-07-22 11:00:49.037] [exthost] [info] ExtensionService#_doActivateExtension vscode.git-base, startup: true, activationEvent: '*', root cause: vscode.git
+[2022-07-22 11:00:49.038] [exthost] [info] ExtensionService#_doActivateExtension vscode.ipynb, startup: true, activationEvent: '*'
+[2022-07-22 11:00:49.051] [exthost] [info] ExtensionService#_doActivateExtension vscode.git, startup: true, activationEvent: '*'
+[2022-07-22 11:00:49.063] [exthost] [info] ExtensionService#_doActivateExtension vscode.github, startup: true, activationEvent: '*'
+[2022-07-22 11:00:49.100] [exthost] [info] Eager extensions activated
+[2022-07-22 11:00:49.126] [exthost] [info] ExtensionService#_doActivateExtension vscode.emmet, startup: false, activationEvent: 'onStartupFinished'
+[2022-07-22 11:00:49.129] [exthost] [info] ExtensionService#_doActivateExtension vscode.merge-conflict, startup: false, activationEvent: 'onStartupFinished'
+[2022-07-22 11:00:49.130] [exthost] [info] ExtensionService#_doActivateExtension equinusocio.vsc-material-theme-icons, startup: false, activationEvent: 'onStartupFinished'
+[2022-07-22 11:00:49.142] [exthost] [info] ExtensionService#_doActivateExtension zhuangtongfa.material-theme, startup: false, activationEvent: 'onStartupFinished'
+[2022-07-22 11:00:49.148] [exthost] [info] ExtensionService#_doActivateExtension vscode.github-authentication, startup: false, activationEvent: 'onAuthenticationRequest:github'
+[2022-07-22 11:01:03.682] [exthost] [info] Extension host terminating: received terminate message from renderer
+[2022-07-22 11:01:03.696] [exthost] [info] Extension host with pid 12538 exiting with code 0

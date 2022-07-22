@@ -1,0 +1,14 @@
+[2022-07-22 08:21:33.509] [main] [info] update#setState idle
+[2022-07-22 08:21:34.560] [main] [info] Starting extension host with pid 4293 (fork() took 8 ms).
+[2022-07-22 08:21:34.594] [main] [info] Starting extension host with pid 4313 (fork() took 6 ms).
+[2022-07-22 08:21:34.626] [main] [info] Starting extension host with pid 4322 (fork() took 7 ms).
+[2022-07-22 08:21:47.619] [main] [info] Extension host with pid 4313 exited with code: 0, signal: null.
+[2022-07-22 08:21:51.219] [main] [info] Extension host with pid 4293 exited with code: 0, signal: null.
+[2022-07-22 08:22:01.374] [main] [info] Starting extension host with pid 4476 (fork() took 7 ms).
+[2022-07-22 08:22:03.511] [main] [info] update#setState checking for updates
+[2022-07-22 08:22:03.521] [main] [info] update#setState available for download
+[2022-07-22 08:22:24.932] [main] [info] Extension host with pid 4476 exited with code: 0, signal: null.
+[2022-07-22 08:22:25.637] [main] [info] Starting extension host with pid 4562 (fork() took 7 ms).
+[2022-07-22 08:31:14.514] [main] [info] Extension host with pid 4322 exited with code: 0, signal: null.
+[2022-07-22 08:31:15.295] [main] [info] Starting extension host with pid 12250 (fork() took 7 ms).
+[2022-07-22 08:32:39.724] [main] [info] Extension host with pid 12250 exited with code: null, signal: SIGHUP.

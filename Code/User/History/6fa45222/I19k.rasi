@@ -1,0 +1,21 @@
+// @theme "/usr/share/rofi/themes/Pop-Dark.rasi"
+
+configuration {
+    // Mouse hover and select settings
+    hover-select: true;
+    me-select-entry: "";
+    me-accept-entry: [ MousePrimary, MouseSecondary, MouseDPrimary ];
+
+    // Window switcher config
+    window-match-fields: "desktop";
+
+    // Default icon for apps
+    application-fallback-icon: "/usr/share/icons/Papirus-Dark/64x64/apps/terminal.svg";
+
+    display-drun: "Applications:";
+    display-window: "Windows:";
+
+    modi: "window,run,drun";
+}
+
+@theme "./themes/spotlight-dark.rasi"

@@ -1,0 +1,194 @@
+[Info  - 10:43:28 AM] BashLanguageServer initializing...
+[Info  - 10:43:28 AM] BashLanguageServer initialized
+onDocumentSymbol
+onDocumentHighlight 17:4 word=null
+onHover 10:14 word="--no-header"
+onDocumentHighlight 12:10 word=null
+onDocumentHighlight 13:2 word=null
+onHover 12:1 word="exec"
+onDocumentHighlight 12:2 word="exec"
+onDocumentSymbol
+onDocumentSymbol
+onDocumentSymbol
+onDocumentSymbol
+onHover 8:16 word="'[\u@\h \W]\$ '"
+onHover 12:1 word="exec"
+onDocumentHighlight 12:2 word="exec"
+onDocumentSymbol
+onDocumentSymbol
+onDocumentSymbol
+onHover 18:0 word="colorscript"
+onDocumentHighlight 18:0 word="colorscript"
+onDocumentSymbol
+onHover 20:16 word=null
+onCompletion 19:1 word="f"
+onCompletionResolve name=f2py type=1
+onCompletionResolve name=fi type=2
+onDocumentSymbol
+onDocumentSymbol
+onDocumentSymbol
+onDocumentSymbol
+onDocumentSymbol
+onDocumentSymbol
+onDocumentSymbol
+onDocumentHighlight 19:0 word="fi"
+onDocumentHighlight 18:15 word=null
+onDocumentSymbol
+onDocumentSymbol
+onDocumentHighlight 18:15 word=null
+onHover 18:5 word="colorscript"
+onDocumentHighlight 18:18 word=null
+onCompletion 19:2 word="e"
+onCompletionResolve name=e2freefrag type=1
+onDocumentSymbol
+onCompletion 19:1 word="e"
+onCompletionResolve name=e2freefrag type=1
+onCompletionResolve name=elfedit type=1
+onCompletionResolve name=else type=2
+onDocumentSymbol
+onDocumentSymbol
+onDocumentSymbol
+onDocumentSymbol
+onCompletion 20:2 word="p"
+onCompletionResolve name=p11-kit type=1
+onDocumentSymbol
+onCompletionResolve name=pfbtops type=1
+onCompletionResolve name=pfetch type=1
+onDocumentSymbol
+onDocumentSymbol
+onCompletion 20:2 word="p"
+onCompletionResolve name=p11-kit type=1
+onDocumentSymbol
+onCompletionResolve name=pfbtops type=1
+onDocumentSymbol
+onCompletionResolve name=pfetch type=1
+onDocumentSymbol
+onDocumentSymbol
+onDocumentSymbol
+onHover 16:4 word="[["
+onHover 16:5 word=null
+onDocumentHighlight 16:6 word="1"
+onDocumentSymbol
+onDocumentHighlight 16:8 word=null
+onDocumentHighlight 16:18 word=null
+onDocumentHighlight 16:22 word=null
+onDocumentSymbol
+onHover 16:6 word="("
+onDocumentSymbol
+onDocumentHighlight 16:8 word="1"
+onDocumentHighlight 16:19 word=null
+onDocumentHighlight 16:23 word=")"
+onDocumentSymbol
+onHover 16:4 word="[["
+onHover 16:8 word="1"
+onHover 16:7 word="("
+onDocumentHighlight 16:8 word="1"
+onHover 20:6 word="pfetch"
+onDocumentSymbol
+onDocumentSymbol
+onDocumentSymbol
+onDocumentSymbol
+onDocumentSymbol
+onDocumentSymbol
+onDocumentSymbol
+onHover 16:26 word="=="
+onDocumentSymbol
+onCompletion 16:28 word="-e"
+onDocumentSymbol
+onDocumentHighlight 17:4 word=null
+onDocumentSymbol
+onDocumentSymbol
+onDefinition 16:13 word="RANDOM"
+onHover 16:16 word="RANDOM"
+onDefinition 16:20 word="2"
+onDefinition 16:25 word="1"
+onHover 16:25 word="1"
+onHover 16:23 word="=="
+onDocumentSymbol
+onCompletion 16:24 word="-e"
+onDocumentSymbol
+onHover 16:20 word="2"
+onDocumentSymbol
+onHover 16:4 word="[["
+onDocumentHighlight 16:6 word="1"
+onDocumentSymbol
+onDocumentSymbol
+onDocumentSymbol
+onCompletion 16:4 word="$("
+onDocumentSymbol
+onDocumentHighlight 16:8 word=null
+onDocumentHighlight 16:18 word=null
+onDocumentHighlight 16:22 word=null
+onDocumentHighlight 16:27 word=null
+onDocumentSymbol
+onDocumentSymbol
+onDocumentSymbol
+onDocumentSymbol
+onHover 16:4 word="$("
+onHover 16:4 word="$("
+onHover 23:22 word="bash"
+onDocumentSymbol
+onDocumentHighlight 13:2 word=null
+onDocumentSymbol
+onDocumentSymbol
+onDocumentSymbol
+onDocumentSymbol
+onDocumentSymbol
+onDocumentSymbol
+onDocumentSymbol
+onDocumentSymbol
+onDocumentSymbol
+onDocumentSymbol
+onDocumentSymbol
+onDocumentSymbol
+onDocumentSymbol
+onDocumentSymbol
+onDocumentSymbol
+onDocumentSymbol
+onDocumentSymbol
+onDocumentSymbol
+onDocumentSymbol
+onDocumentSymbol
+onDocumentSymbol
+onDocumentSymbol
+onDocumentSymbol
+onHover 10:20 word="--no-header"
+onHover 10:21 word="--no-header"
+onDefinition 10:21 word="--no-header"
+onHover 10:24 word="--pid="
+onHover 10:24 word="--pid="
+onHover 10:24 word="--pid="
+onHover 10:24 word="--pid="
+onHover 10:24 word="--pid="
+onHover 5:8 word=null
+onHover 13:1 word="fi"
+onDefinition 13:1 word="fi"
+onHover 15:13 word="# Pfetch variables"
+onDocumentSymbol
+onHover 16:16 word=null
+onDefinition 16:16 word=null
+onHover 16:0 word="PF_INFO"
+onDocumentHighlight 16:0 word="PF_INFO"
+onHover 16:3 word="PF_INFO"
+onDocumentSymbol
+onDocumentSymbol
+onHover 16:5 word="export"
+onDocumentHighlight 16:5 word="export"
+onDocumentSymbol
+onDocumentSymbol
+onDocumentHighlight 16:6 word=null
+onDocumentHighlight 16:7 word="PF_INFO"
+onDocumentSymbol
+onHover 16:0 word="PF_INFO"
+onDocumentSymbol
+onDocumentSymbol
+onHover 10:33 word="PPID"
+onHover 16:12 word="PF_INFO"
+onDefinition 16:13 word="PF_INFO"
+onDocumentSymbol
+onDocumentSymbol
+onHover 16:16 word="# export PF_INFO="title os host kernel uptime pkgs memory""
+onHover 11:1 word="then"
+onHover 15:13 word="# Pfetch variables"
+onDocumentHighlight 12:13 word=null
+onHover 8:18 word="'[\u@\h \W]\$ '"

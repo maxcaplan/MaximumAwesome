@@ -1,0 +1,8 @@
+{
+    "window.zoomLevel": 3,
+    "Lua.telemetry.enable": false,
+    "workbench.colorTheme": "One Dark Pro",
+    "workbench.iconTheme": "material-icon-theme",
+    "editor.fontFamily": "'DejaVu Sans Mono', 'monospace', monospace",
+    "security.workspace.trust.untrustedFiles": "open"
+}
