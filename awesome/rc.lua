@@ -604,4 +604,5 @@ client.connect_signal("unfocus", function(c) c.border_color = beautiful.border_n
 
 -- Auto start apps
 awful.spawn("picom --experimental-backend -b", false)
+awful.spawn("xmousepasteblock-git", false)
 -- }}}
