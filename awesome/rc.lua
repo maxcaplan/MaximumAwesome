@@ -172,6 +172,8 @@ end
 -- Re-set wallpaper when a screen's geometry changes (e.g. different resolution)
 screen.connect_signal("property::geometry", set_wallpaper)
 
+awesome.set_preferred_icon_size(32)
+
 awful.screen.connect_for_each_screen(function(s)
     -- Wallpaper
     set_wallpaper(s)
@@ -267,7 +269,8 @@ globalkeys = gears.table.join(
 
     awful.key({ "Mod1", }, "Tab",
         function() awful.spawn.with_shell("rofi -show window -kb-accept-entry \"!Alt-Tab,!Alt+Alt_L,Return\" -kb-row-down \"Alt+Tab\" -selected-row 1 -steal-focus -show-icons"
-            , false) end
+                , false)
+        end
         , { title = "client", description = "Switch windows" }),
 
     -- Layout manipulation
@@ -328,12 +331,20 @@ globalkeys = gears.table.join(
         { description = "restore minimized", group = "client" }),
 
     -- Prompt
-    -- awful.key({ modkey }, "r", function() awful.screen.focused().mypromptbox:run() end,
-    --     { description = "run prompt", group = "launcher" }),
     awful.key({ modkey }, "r", function() awful.spawn.with_shell("rofi -show drun -show-icons", false) end,
         { description = "application prompt", group = "launcher" }),
     awful.key({ modkey, "Shift" }, "r", function() awful.spawn.with_shell("rofi -show run -show-icons", false) end,
         { description = "run prompt", group = "launcher" }),
+
+    -- Browsers
+    awful.key({ modkey }, "b", function() awful.spawn("firefox", false) end,
+        { description = "run firefox", group = "launcher" }),
+    awful.key({ modkey, "Shift" }, "b", function() awful.spawn("chromium", false) end,
+        { description = "run chromium", group = "launcher" }),
+
+    -- Editor
+    awful.key({ modkey }, "c", function() awful.spawn("code", false) end,
+        { description = "run VS Code", group = "launcher" }),
 
     awful.key({ modkey }, "x",
         function()
@@ -495,7 +506,8 @@ awful.rules.rules = {
             "Tor Browser", -- Needs a fixed window size to avoid fingerprinting by screen size.
             "Wpa_gui",
             "veromix",
-            "xtightvncviewer" },
+            "xtightvncviewer"
+        },
 
         -- Note that the name property shown in xprop might be set slightly after creation of the client
         -- and the name shown there might not match defined rules here.
