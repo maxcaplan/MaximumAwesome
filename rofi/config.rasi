@@ -15,8 +15,9 @@ configuration {
     display-drun: "Apps:";
     display-run: "Run:";
     display-window: "Windows:";
+    display-file-browser-extended: "Open:";
 
-    modi: "window,run,drun";
+    modi: "window,run,drun,file-browser-extended";
 }
 
 @theme "./themes/spotlight-dark.rasi"

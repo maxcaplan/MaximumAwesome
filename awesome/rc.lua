@@ -346,6 +346,11 @@ globalkeys = gears.table.join(
     awful.key({ modkey }, "c", function() awful.spawn("code", false) end,
         { description = "run VS Code", group = "launcher" }),
 
+    -- File Browser
+    awful.key({ modkey }, "v",
+        function() awful.spawn.with_shell("rofi -show file-browser-extended -show-icons", false) end,
+        { description = "run file browser", group = "launcher" }),
+
     awful.key({ modkey }, "x",
         function()
             awful.prompt.run {
@@ -614,7 +619,7 @@ client.connect_signal("focus", function(c) c.border_color = beautiful.border_foc
 client.connect_signal("unfocus", function(c) c.border_color = beautiful.border_normal end)
 -- }}}
 
--- Auto start apps
+-- {{{ Auto start apps
 awful.spawn("picom --experimental-backend -b", false)
 awful.spawn("xmousepasteblock-git", false)
 -- }}}
