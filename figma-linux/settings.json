@@ -1,0 +1,49 @@
+{
+  "clientId": "865cd97e-6c98-45ed-b8b0-737797832ec4",
+  "userId": "609085058189926748",
+  "authedUserIDs": [
+    "609085058189926748"
+  ],
+  "app": {
+    "logLevel": 1,
+    "enableColorSpaceSrgb": false,
+    "visibleNewProjectBtn": true,
+    "useZenity": false,
+    "panelHeight": 52,
+    "saveLastOpenedTabs": true,
+    "exportDir": "/home/max/Pictures/Figma",
+    "fontDirs": [
+      "/usr/share/fonts",
+      "/usr/local/share/fonts",
+      "/run/host/fonts",
+      "/run/host/user-fonts",
+      "/home/max/.local/share/fonts"
+    ],
+    "lastOpenedTabs": [],
+    "featureFlags": {
+      "comments_on_the_canvas": true,
+      "voice_captions_enabled": true,
+      "desktop_disable_cs_prompt": true,
+      "desktop_menu_unification_rollout": true,
+      "paste_to_replace": true,
+      "vector_menu_after_arrange": true,
+      "figjam_miro_import": true,
+      "use_freetype": true,
+      "desktop_always_preload": true,
+      "desktop_disable_accelerators": true,
+      "desktop_arm_translation_dialog": true,
+      "desktop_bell_feed_rollout": true,
+      "desktop_push_notifs_mac": true,
+      "desktop_push_notifs_win": true,
+      "desktop_new_tab_v2_rollout": true
+    },
+    "savedExtensions": []
+  },
+  "theme": {
+    "currentTheme": "dark-theme"
+  },
+  "ui": {
+    "scalePanel": 1.3,
+    "scaleFigmaUI": 1.3
+  }
+}

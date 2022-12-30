@@ -29,7 +29,7 @@ threshold = 20
 style = "bold red"
 
 [status]
-format = "[\\[]($style)[$symbol$status]($style)[\\]]($style) "
+format = "[\\[]($style)[$symbol $status]($style)[\\]]($style) "
 disabled = false
 
 [time]

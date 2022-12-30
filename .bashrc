@@ -8,6 +8,10 @@
 alias ls='ls --color=auto'
 PS1='[\u@\h \W]\$ '
 
+# Deno Path
+export DENO_INSTALL="/home/$USER/.deno"
+export PATH="$DENO_INSTALL/bin:$PATH"
+
 if [[ $(ps --no-header --pid=$PPID --format=comm) != "fish" && -z ${BASH_EXECUTION_STRING} ]]
 then
     exec fish

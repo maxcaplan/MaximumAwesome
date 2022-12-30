@@ -363,7 +363,18 @@ globalkeys = gears.table.join(
         { description = "lua execute prompt", group = "awesome" }),
     -- Menubar
     awful.key({ modkey }, "p", function() menubar.show() end,
-        { description = "show the menubar", group = "launcher" })
+        { description = "show the menubar", group = "launcher" }),
+
+
+    -- Media Keys
+    -- Volume UP
+    awful.key({}, "XF86AudioRaiseVolume", function()
+        awful.spawn("pactl set-sink-volume @DEFAULT_SINK@ +5%", false)
+    end, { description = "increase system volume by 5%", group = "media" }),
+    -- Volume DOWN
+    awful.key({}, "XF86AudioLowerVolume", function()
+        awful.spawn("pactl set-sink-volume @DEFAULT_SINK@ -5%", false)
+    end, { description = "decrease system volume by 5%", group = "media" })
 )
 
 clientkeys = gears.table.join(
@@ -559,6 +570,9 @@ client.connect_signal("manage", function(c)
         -- Prevent clients from being unreachable after screen count changes.
         awful.placement.no_offscreen(c)
     end
+
+    -- Remove border from maximized clients on appear
+    c.border_width = c.maximized and 0 or beautiful.border_width
 end)
 
 -- Add a titlebar if titlebars_enabled is set to true in the rules.
@@ -626,5 +640,5 @@ end)
 
 -- {{{ Auto start apps
 awful.spawn("picom --experimental-backend -b", false)
-awful.spawn("xmousepasteblock-git", false)
+awful.spawn.with_shell("xmousepasteblock &&", false)
 -- }}}
